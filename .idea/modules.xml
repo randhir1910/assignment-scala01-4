@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/assignment-scala01-4-master.iml" filepath="$PROJECT_DIR$/.idea/modules/assignment-scala01-4-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/assignment-scala01-4-master-build.iml" filepath="$PROJECT_DIR$/.idea/modules/assignment-scala01-4-master-build.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/assignment-scala01-4.iml" filepath="$PROJECT_DIR$/.idea/modules/assignment-scala01-4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/assignment-scala01-4-build.iml" filepath="$PROJECT_DIR$/.idea/modules/assignment-scala01-4-build.iml" />
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
     </modules>
   </component>
 </project>

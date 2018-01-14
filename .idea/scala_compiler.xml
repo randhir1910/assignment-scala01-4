@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
+<<<<<<< HEAD
     <profile name="sbt 1" modules="assignment-scala01-4,assignment-scala01-4-master,assignment-scala01-4-master" />
+=======
+    <profile name="sbt 1" modules="assignment-scala01-4" />
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
   </component>
 </project>

@@ -1,18 +1,33 @@
+<<<<<<< HEAD
 [info] Updating ProjectRef(uri("file:/home/knoldus/Desktop/assignment-scala01-4-master/project/"), "assignment-scala01-4-master-build")...
 [debug] :: resolving dependencies :: default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT
+=======
+[info] Updating ProjectRef(uri("file:/home/knoldus/Downloads/assignment-scala01-4/project/"), "assignment-scala01-4-build")...
+[debug] :: resolving dependencies :: default#assignment-scala01-4-build;0.1.0-SNAPSHOT
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
+<<<<<<< HEAD
 [debug] == resolving dependencies for default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)]
+=======
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [compile]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle-sbt-plugin;1.0.0 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scalastyle#scalastyle-sbt-plugin;1.0.0
 [debug] 	found org.scalastyle#scalastyle-sbt-plugin;1.0.0 in sbt-chain
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.12;1.0.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -178,6 +193,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.12;1.0.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.12;1.0.0 [runtime->compile]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -185,12 +201,26 @@
 [debug] == resolving dependencies for default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [compile]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.12;1.0.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -347,6 +377,7 @@
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6->org.scala-lang#scala-library;2.12.4 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.12;1.0.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.12;1.0.0->com.typesafe#config;1.2.0 [runtime->compile]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -355,14 +386,29 @@
 [debug] == resolving dependencies for default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [test]
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [compile]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.12;1.0.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -531,6 +577,7 @@
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6->org.scala-lang#scala-library;2.12.4 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.12;1.0.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.12;1.0.0->com.typesafe#config;1.2.0 [runtime->compile]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -543,13 +590,32 @@
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [provided->compile]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [provided->master]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->default(compile)]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [provided]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [provided->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [provided->runtime]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [provided->compile]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [provided->master]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->default(compile)]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;1.1.0 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;1.1.0
 [debug] 	found org.scala-sbt#sbt;1.1.0 in sbt-chain
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->runtime]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->compile]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->runtime]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->compile]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-sbt#sbt;1.1.0->org.scala-lang#scala-library;2.12.4 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -4634,6 +4700,7 @@
 [debug] == resolving dependencies org.scala-sbt#sbt;1.1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
 [debug] == resolving dependencies org.scala-sbt#sbt;1.1.0->org.scala-sbt#main_2.12;1.1.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-sbt#sbt;1.1.0->org.scala-sbt#main_2.12;1.1.0 [runtime->compile]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -4643,6 +4710,17 @@
 [debug] == resolving dependencies for default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT [compile-internal]
 [debug] == resolving dependencies for default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [compile]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
@@ -4651,8 +4729,13 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.12;1.0.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -4833,6 +4916,7 @@
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6->org.scala-lang#scala-library;2.12.4 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.12;1.0.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.12;1.0.0->com.typesafe#config;1.2.0 [runtime->compile]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -4843,6 +4927,18 @@
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [provided->compile]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [provided->master]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->default(compile)]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [provided]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [provided->default(compile)]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [provided->runtime]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [provided->compile]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [provided->master]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->default(compile)]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
@@ -4851,8 +4947,13 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->runtime]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->compile]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->runtime]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->compile]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-sbt#sbt;1.1.0->org.scala-lang#scala-library;2.12.4 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -9103,6 +9204,7 @@
 [debug] == resolving dependencies org.scala-sbt#zinc-compile_2.12;1.1.0->org.scala-sbt#zinc-compile-core_2.12;1.1.0 [runtime->compile]
 [debug] == resolving dependencies org.scala-sbt#zinc-compile_2.12;1.1.0->org.scala-sbt#util-tracking_2.12;1.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-sbt#zinc-compile_2.12;1.1.0->org.scala-sbt#util-tracking_2.12;1.1.2 [runtime->compile]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -9111,6 +9213,16 @@
 [debug] == resolving dependencies for default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [compile]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
@@ -9119,8 +9231,13 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.12;1.0.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -9301,6 +9418,7 @@
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6->org.scala-lang#scala-library;2.12.4 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.12;1.0.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.12;1.0.0->com.typesafe#config;1.2.0 [runtime->compile]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -9311,6 +9429,18 @@
 [debug] == resolving dependencies for default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [test]
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [compile]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
@@ -9323,8 +9453,13 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.12;1.0.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -9529,6 +9664,7 @@
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6->org.scala-lang#scala-library;2.12.4 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.12;1.0.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.12;1.0.0->com.typesafe#config;1.2.0 [runtime->compile]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -9539,6 +9675,18 @@
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [provided->compile]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [provided->master]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->default(compile)]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [provided]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [provided->default(compile)]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [provided->runtime]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [provided->compile]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [provided->master]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->default(compile)]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
@@ -9551,8 +9699,13 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->runtime]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->compile]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->runtime]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->compile]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-sbt#sbt;1.1.0->org.scala-lang#scala-library;2.12.4 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -14087,6 +14240,7 @@
 [debug] == resolving dependencies org.scala-sbt#zinc-compile_2.12;1.1.0->org.scala-sbt#zinc-compile-core_2.12;1.1.0 [runtime->compile]
 [debug] == resolving dependencies org.scala-sbt#zinc-compile_2.12;1.1.0->org.scala-sbt#util-tracking_2.12;1.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-sbt#zinc-compile_2.12;1.1.0->org.scala-sbt#util-tracking_2.12;1.1.2 [runtime->compile]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -14101,6 +14255,22 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.4 [scala-tool->runtime]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.4 [scala-tool->compile]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-sbt#sbt;1.1.0 [provided->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [plugin]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for default#assignment-scala01-4-build;0.1.0-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.4 [scala-tool->default]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.4 [scala-tool->compile]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang#scala-library;2.12.4 [compile->master(*)]
@@ -14190,12 +14360,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.4 [scala-tool->master]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.4 [scala-tool->master]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.4 [scala-tool->optional(default)]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.4 [scala-tool->optional(default)]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.4->jline#jline;2.14.5 [optional->master(*)]
@@ -14217,27 +14395,44 @@
 [debug] sbt-chain: module revision found in cache: jline#jline;2.14.5
 [debug] 	found jline#jline;2.14.5 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.4->jline#jline;2.14.5 [optional->compile(*)]
+<<<<<<< HEAD
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [scala-tool->default]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [scala-tool->runtime]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [scala-tool->compile]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [scala-tool->master]
 [debug] == resolving dependencies default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [scala-tool->optional(default)]
+=======
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [scala-tool->default]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [scala-tool->compile]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [scala-tool->master]
+[debug] == resolving dependencies default#assignment-scala01-4-build;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [scala-tool->optional(default)]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scalastyle#scalastyle-sbt-plugin;1.0.0!scalastyle-sbt-plugin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#util-control_2.12;1.1.2!util-control_2.12.jar
+<<<<<<< HEAD
 [debug] 	[NOT REQUIRED] org.scala-sbt#util-logging_2.12;1.1.2!util-logging_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#actions_2.12;1.1.0!actions_2.12.jar
 [debug] no default ivy user dir defined: set to /home/knoldus/.ivy2
 [debug] no default ivy user dir defined: set to /home/knoldus/.ivy2
 [debug] no default ivy user dir defined: set to /home/knoldus/.ivy2
+=======
+[debug] no default ivy user dir defined: set to /home/knoldus/.ivy2
+[debug] no default ivy user dir defined: set to /home/knoldus/.ivy2
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-logging_2.12;1.1.2!util-logging_2.12.jar
+[debug] no default ivy user dir defined: set to /home/knoldus/.ivy2
+[debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.12;0.10.4!jawn-parser_2.12.jar
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] no default ivy user dir defined: set to /home/knoldus/.ivy2
 [debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default cache defined: set to /home/knoldus/.ivy2/cache
+<<<<<<< HEAD
 [debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] no default cache defined: set to /home/knoldus/.ivy2/cache
@@ -14258,6 +14453,28 @@
 [debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] settings loaded (130ms)
 [debug] settings loaded (139ms)
+=======
+[debug] no default cache defined: set to /home/knoldus/.ivy2/cache
+[debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /home/knoldus/.ivy2/cache
+[debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /home/knoldus/.ivy2/cache
+[debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (123ms)
+[debug] settings loaded (143ms)
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] 	default cache: /home/knoldus/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -14266,6 +14483,7 @@
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
+<<<<<<< HEAD
 [debug] 	default [chain] [local, main]
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
@@ -14276,16 +14494,32 @@
 [debug] 	-- 5 resolvers:
 [debug] 	[NOT REQUIRED] org.scala-sbt#librarymanagement-core_2.12;1.1.2!librarymanagement-core_2.12.jar
 [debug] 	shared [file]
+=======
+[debug] settings loaded (139ms)
+[debug] 	default cache: /home/knoldus/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] 	default [chain] [local, main]
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+<<<<<<< HEAD
 [debug] 	[NOT REQUIRED] org.scala-sbt#main-settings_2.12;1.1.0!main-settings_2.12.jar
+=======
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] 	default [chain] [local, main]
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
 [debug] 	[NOT REQUIRED] net.java.dev.jna#jna;4.5.0!jna.jar
+<<<<<<< HEAD
 [debug] including url: jar:file:/home/knoldus/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] settings loaded (158ms)
 [debug] 	[NOT REQUIRED] net.java.dev.jna#jna-platform;4.5.0!jna-platform.jar
@@ -14297,6 +14531,21 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#launcher-interface;1.0.2!launcher-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.8.1!log4j-api.jar
+=======
+[debug] 	[NOT REQUIRED] org.scala-sbt#librarymanagement-core_2.12;1.1.2!librarymanagement-core_2.12.jar
+[debug] 	[NOT REQUIRED] net.java.dev.jna#jna-platform;4.5.0!jna-platform.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#librarymanagement-ivy_2.12;1.1.2!librarymanagement-ivy_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;1.1.0!compiler-interface.jar
+[debug] 	[NOT REQUIRED] org.scalastyle#scalastyle_2.12;1.0.0!scalastyle_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-compile_2.12;1.1.0!zinc-compile_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-relation_2.12;1.1.2!util-relation_2.12.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#sjson-new-scalajson_2.12;0.8.2!sjson-new-scalajson_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-position_2.12;1.1.2!util-position_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-interface;1.1.2!util-interface.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#sjson-new-core_2.12;0.8.2!sjson-new-core_2.12.jar
+[debug] 	[NOT REQUIRED] com.lmax#disruptor;3.3.6!disruptor.jar
+[debug] settings loaded (130ms)
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [debug] 	default cache: /home/knoldus/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -14305,6 +14554,7 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
+<<<<<<< HEAD
 [debug] 	[NOT REQUIRED] org.scalastyle#scalastyle_2.12;1.0.0!scalastyle_2.12.jar
 [debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar
@@ -14384,4 +14634,84 @@
 [debug] 	report for default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT pom produced in /home/knoldus/Desktop/assignment-scala01-4-master/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-assignment-scala01-4-master-build-pom.xml
 [debug] 	report for default#assignment-scala01-4-master-build;0.1.0-SNAPSHOT scala-tool produced in /home/knoldus/Desktop/assignment-scala01-4-master/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-assignment-scala01-4-master-build-scala-tool.xml
 [debug] 	resolve done (11057ms resolve - 601ms download)
+=======
+[debug] 	[NOT REQUIRED] org.scala-sbt#completion_2.12;1.1.0!completion_2.12.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#shaded-scalajson_2.12;1.0.0-M4!shaded-scalajson_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-cache_2.12;1.1.2!util-cache_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar
+[debug] 	[NOT REQUIRED] org.scalariform#scalariform_2.12;0.2.0!scalariform_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#task-system_2.12;1.1.0!task-system_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#tasks_2.12;1.1.0!tasks_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#testing_2.12;1.1.0!testing_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-ivy-integration_2.12;1.1.0!zinc-ivy-integration_2.12.jar
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-tracking_2.12;1.1.2!util-tracking_2.12.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#sjson-new-murmurhash_2.12;0.8.2!sjson-new-murmurhash_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;1.1.0!test-agent.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-classpath_2.12;1.1.0!zinc-classpath_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6!scala-parser-combinators_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc_2.12;1.1.0!zinc_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-apiinfo_2.12;1.1.0!zinc-apiinfo_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-classfile_2.12;1.1.0!zinc-classfile_2.12.jar
+[debug] 	[NOT REQUIRED] jline#jline;2.14.4!jline.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#sbt;1.1.0!sbt.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#main_2.12;1.1.0!main_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#logic_2.12;1.1.0!logic_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#actions_2.12;1.1.0!actions_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#main-settings_2.12;1.1.0!main-settings_2.12.jar
+[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;3.3.1!protobuf-java.jar(bundle)
+[debug] 	[NOT REQUIRED] com.lihaoyi#fastparse-utils_2.12;0.4.2!fastparse-utils_2.12.jar
+[debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.46!jsch.jar
+[debug] 	[NOT REQUIRED] com.lihaoyi#sourcecode_2.12;0.1.3!sourcecode_2.12.jar
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#gigahorse-okhttp_2.12;0.3.0!gigahorse-okhttp_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#core-macros_2.12;1.1.0!core-macros_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#protocol_2.12;1.1.0!protocol_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
+[debug] 	[NOT REQUIRED] com.github.cb372#scalacache-core_2.12;0.20.0!scalacache-core_2.12.jar
+[debug] 	[NOT REQUIRED] com.github.ben-manes.caffeine#caffeine;2.5.6!caffeine.jar
+[debug] 	[NOT REQUIRED] com.squareup.okio#okio;1.12.0!okio.jar
+[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp-urlconnection;3.7.0!okhttp-urlconnection.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#gigahorse-core_2.12;0.3.0!gigahorse-core_2.12.jar
+[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp;3.7.0!okhttp.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#run_2.12;1.1.0!run_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#command_2.12;1.1.0!command_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#collections_2.12;1.1.0!collections_2.12.jar
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-core_2.12;1.1.0!zinc-core_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310!ivy.jar
+[debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#sbinary_2.12;0.4.4!sbinary_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#launcher-interface;1.0.2!launcher-interface.jar
+[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.8.1!log4j-api.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-compile-core_2.12;1.1.0!zinc-compile-core_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.5!scala-parser-combinators_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-persist_2.12;1.1.0!zinc-persist_2.12.jar
+[debug] 	[NOT REQUIRED] com.trueaccord.scalapb#scalapb-runtime_2.12;0.6.0!scalapb-runtime_2.12.jar
+[debug] 	[NOT REQUIRED] com.trueaccord.lenses#lenses_2.12;0.4.12!lenses_2.12.jar
+[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar
+[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar(test-jar)
+[debug] 	[NOT REQUIRED] com.lihaoyi#fastparse_2.12;0.4.2!fastparse_2.12.jar
+[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-slf4j-impl;2.8.1!log4j-slf4j-impl.jar
+[debug] 	[NOT REQUIRED] com.github.cb372#scalacache-caffeine_2.12;0.20.0!scalacache-caffeine_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#io_2.12;1.1.3!io_2.12.jar
+[debug] :: resolution report :: resolve 4473ms :: artifacts dl 424ms
+[debug] 	report for default#assignment-scala01-4-build;0.1.0-SNAPSHOT compile produced in /home/knoldus/Downloads/assignment-scala01-4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-assignment-scala01-4-build-compile.xml
+[debug] 	report for default#assignment-scala01-4-build;0.1.0-SNAPSHOT runtime produced in /home/knoldus/Downloads/assignment-scala01-4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-assignment-scala01-4-build-runtime.xml
+[debug] 	report for default#assignment-scala01-4-build;0.1.0-SNAPSHOT test produced in /home/knoldus/Downloads/assignment-scala01-4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-assignment-scala01-4-build-test.xml
+[debug] 	report for default#assignment-scala01-4-build;0.1.0-SNAPSHOT provided produced in /home/knoldus/Downloads/assignment-scala01-4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-assignment-scala01-4-build-provided.xml
+[debug] 	report for default#assignment-scala01-4-build;0.1.0-SNAPSHOT optional produced in /home/knoldus/Downloads/assignment-scala01-4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-assignment-scala01-4-build-optional.xml
+[debug] 	report for default#assignment-scala01-4-build;0.1.0-SNAPSHOT compile-internal produced in /home/knoldus/Downloads/assignment-scala01-4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-assignment-scala01-4-build-compile-internal.xml
+[debug] 	report for default#assignment-scala01-4-build;0.1.0-SNAPSHOT runtime-internal produced in /home/knoldus/Downloads/assignment-scala01-4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-assignment-scala01-4-build-runtime-internal.xml
+[debug] 	report for default#assignment-scala01-4-build;0.1.0-SNAPSHOT test-internal produced in /home/knoldus/Downloads/assignment-scala01-4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-assignment-scala01-4-build-test-internal.xml
+[debug] 	report for default#assignment-scala01-4-build;0.1.0-SNAPSHOT plugin produced in /home/knoldus/Downloads/assignment-scala01-4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-assignment-scala01-4-build-plugin.xml
+[debug] 	report for default#assignment-scala01-4-build;0.1.0-SNAPSHOT pom produced in /home/knoldus/Downloads/assignment-scala01-4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-assignment-scala01-4-build-pom.xml
+[debug] 	report for default#assignment-scala01-4-build;0.1.0-SNAPSHOT scala-tool produced in /home/knoldus/Downloads/assignment-scala01-4/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-assignment-scala01-4-build-scala-tool.xml
+[debug] 	resolve done (4473ms resolve - 424ms download)
+>>>>>>> d6f15ce502f3d25d6ff2d33a54e5cc1b8a6dccee
 [info] Done updating.

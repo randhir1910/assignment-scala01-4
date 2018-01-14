@@ -4,6 +4,7 @@ class Operation {
     f(first, second)
   }
 
+
   def operateList(list: List[Int], operation: String, function: (Int, Int) => Int): Int = {
     def innerOperate(result: Int, list1: List[Int], f: (Int, Int) => Int): Int = {
       list1 match {
@@ -30,6 +31,7 @@ class Operation {
 
       pascal(column, row - 1) + pascal(column - 1, row - 1)
     }
+
   }
 
 }
